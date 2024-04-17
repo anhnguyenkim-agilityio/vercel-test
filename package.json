@@ -1,19 +1,31 @@
 {
-  "name": "practice-two",
+  "name": "restful-api-vercel",
   "version": "1.0.0",
-  "description": "This is practice about javascript",
+  "description": "This is a ready RESTful API created with the JSON Server package",
+  "main": "index.js",
   "scripts": {
-    "start": "npx parcel src/index.html",
-    "build": "parcel build ./src/*.html --no-cache --no-source-maps --dist-dir dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "thanhngan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifkas/restful-api-vercel.git"
+  },
+  "keywords": [
+    "restful",
+    "rest",
+    "api",
+    "vercel",
+    "json",
+    "server"
+  ],
+  "author": "Ivo Culic",
   "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.12.0",
-    "posthtml-include": "^2.0.1",
-    "json-server": "^1.0.0-alpha.23"
+  "bugs": {
+    "url": "https://github.com/ifkas/restful-api-vercel/issues"
   },
-  "dependencies": {
-    "toastify-js": "^1.12.0"    
+  "homepage": "https://github.com/ifkas/restful-api-vercel#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "json-server": "^0.17.1"
   }
 }
