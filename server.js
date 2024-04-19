@@ -1,9 +1,10 @@
 // JSON Server module
 const jsonServer = require("json-server");
 const fs = require('fs')
+const path = require('path');
 
 const filePath = path.join("/tmp", "db.json");
-const data = {
+var data = {
   "product": [
     {
       "name": "Big Potatos",
